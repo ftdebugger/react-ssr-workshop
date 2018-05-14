@@ -1,0 +1,33 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    text-align: center;
+    height: 39px;
+}
+
+.nav__link {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 20px;
+    color: #131313;
+    text-underline-position: under;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section__title {
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+.section__content {
+    margin-top: -39px;
+}
